@@ -1,0 +1,36 @@
+.footer {
+    .footer-top-col-one {
+        ul {
+            list-style: none;
+            padding-left: 0px;
+            line-height: 2.2;
+            li {
+                font-size: 13.5px;
+            }
+        }
+    }
+
+    .footer-top-col-two,
+    .footer-top-col-three {
+        ul {
+            list-style: none;
+            padding-left: 0px;
+            line-height: 2.2;
+            li {
+                font-size: 13.5px;
+            }
+        }
+    }
+
+    .footer-top-col-four {
+        .new_gift {
+            input {
+                width: 75%;
+                background-color: #E5E5E5;
+            }
+            button{
+                background-color: #F46538;
+            }
+        }
+    }
+}

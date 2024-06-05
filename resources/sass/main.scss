@@ -1,0 +1,37 @@
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-icons/font/bootstrap-icons.css';
+
+
+$primary-color: #204099; 
+$prigba-color: rgba(255, 215, 68, 0.5);
+/* Begin Class riêng */
+.bg-bule204{
+    background-color: $primary-color;
+}
+
+.text-bule204{
+    color: $primary-color;
+}
+
+.bg-prigba{
+    background-color: $prigba-color;
+}
+
+.text-prigba{
+    color: $prigba-color;
+}
+
+.bg-cF{
+    background-color: #F4F7FF;
+}
+
+.shadow00{
+    box-shadow: 0 0 #0000, 0 0 #0000, 
+    0 0 #0000, 0 0 #0000, 
+    rgba(0,0,0,.24) 0px 2px 8px;
+}
+/* End Class riêng */
+
+.header-top{
+    font-size: 12px;
+}

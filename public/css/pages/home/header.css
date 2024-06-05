@@ -1,0 +1,55 @@
+.header-col-left {
+  width: 20%;
+}
+.header-col-left ul {
+  list-style: none;
+  line-height: 2.5;
+  padding-left: 0;
+}
+.header-col-left ul li {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.header-col-left ul li img {
+  width: 20px;
+  height: 20px;
+}
+
+.header-col-center .lower-bar .lower-bar-item > div:nth-child(1) {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 50%;
+}
+.header-col-center .lower-bar .lower-bar-item > div:nth-child(2) {
+  font-size: 14px;
+}
+
+.header-col-right {
+  background-color: #dcf1fd;
+}
+.header-col-right .header-col-right-welcome > div:nth-child(1) {
+  font-size: 0.75rem;
+}
+.header-col-right .header-col-right-welcome > div:nth-child(1) p:nth-child(2) {
+  font-size: 0.6rem;
+}
+.header-col-right .header-col-right-welcome > div:nth-child(2) {
+  text-align: center;
+  margin-top: 5px;
+}
+.header-col-right .header-col-right-welcome > div:nth-child(2) button {
+  width: 45%;
+  margin: 0 3px;
+  color: #204099;
+  border: 1px solid #204099;
+  font-size: 14px;
+  font-weight: 500;
+}
+.header-col-right .header-col-right-check > div div {
+  font-size: 0.65rem;
+}
+.header-col-right .header-col-right-mxh div div {
+  font-size: 11px;
+}

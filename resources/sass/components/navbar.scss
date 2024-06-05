@@ -1,0 +1,43 @@
+.navbar{
+    background-color: #FFCC33;
+    .navbar-top{
+        background-color: #204099;
+        border: 2px solid #fff;
+        border-top: none;
+        .navbar-input-search{
+            input{
+                &::placeholder{
+                    color: #9BA3AF;
+                    font-size: 0.9rem;
+                }
+            }
+            div{
+                top: 25%;
+                right: 2%;
+                i{
+                    color: #CFD3D8;
+                }
+            }
+        }
+        .navbar-right{
+            p{
+                margin-top: 5px;
+                margin-bottom: 0px;
+                font-size: .875rem;
+                color: #fff;
+            }
+        }
+    }
+    .navbar-bottom{
+        .navbar-bottom-item{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            div{
+                font-weight: bold;
+                color: rgb(33 64 154);
+                font-size: 13px;
+            }
+        }
+    }
+}
