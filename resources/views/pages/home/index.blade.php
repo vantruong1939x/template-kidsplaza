@@ -43,8 +43,9 @@
 </header>
 
 <main class="bg-cF">
-    <div class="container" style="height:500px">
+    <div class="container">
         @include('pages/home/include/outstan-category')
+        @include('pages/home/include/outstan-brand')
     </div>
 </main>
 

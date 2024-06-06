@@ -1,6 +1,23 @@
-.list-category{
-    .category-item{
-        width: 50px;
-        height: 50px;
+.list-category {
+    .category-item {
+        width: 85px;
+        > div:nth-child(1) {
+            height: 115px;
+        }
+        img {
+            transform: translateY(29%);
+        }
+    }
+}
+
+.bar-category{
+    width: 12%;
+    margin: 0 auto;
+    .progress{
+        height: 7px;
+        .progress-bar{
+            background-color: #21409a;
+            border-radius: 10px;
+        }
     }
 }

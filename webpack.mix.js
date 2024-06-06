@@ -21,6 +21,7 @@ mix.sass('resources/sass/components/navbar.scss', 'public/css/components');
 mix.sass('resources/sass/components/footer.scss', 'public/css/components');
 mix.sass('resources/sass/pages/home/header.scss', 'public/css/pages/home');
 mix.sass('resources/sass/pages/home/outstan-category.scss', 'public/css/pages/home');
+mix.sass('resources/sass/pages/home/outstan-brand.scss', 'public/css/pages/home');
 // mix.sass('resources/sass/abstracts/_variableweb.scss', 'public/css/abstracts');
 
 // Biên dịch tệp app.js cho tôi
